@@ -1,0 +1,7 @@
+services:
+    app.websocket_actions.updateState:
+        class: 'AppBundle\WebsocketAction\UpdateStateAction'
+        arguments: ['@doctrine.orm.entity_manager']
+    app.websocket_actions.GetNoteData:
+        class: 'AppBundle\WebsocketAction\GetNoteDataAction'
+        arguments: ['@doctrine.orm.entity_manager']

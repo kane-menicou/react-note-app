@@ -1,0 +1,7 @@
+parameters:
+
+
+services:
+    AppBundle\:
+        resource: '../../src/AppBundle/*'
+        exclude: '../../src/AppBundle/{Entity,Repository,Tests}'
